@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Example QrCodeGenerator</title>
+    <style>
+      .container{
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+    </style>
+    <style src="../qrCodeGenerator.css"></style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="my_qr_code"></div>
+    </div>
+    <script src="../qrCodeGenerator.js"></script>
+    <script>
+      const my_qr_code = new QrCodeGenerator("my_qr_code", {
+        size: 150,
+        color: "255-0-0",
+        bgcolor: "0-0-255",
+        format: "png"
+      });
+    </script>
+  </body>
+</html>
