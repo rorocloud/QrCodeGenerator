@@ -1,0 +1,26 @@
+.qr_code_img_container{
+  margin: 10px;
+  height: 150px;
+}
+.qr_code_input{
+  padding: 8px 14px;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #E8CCFF;
+  display: block;
+  font-size: 16px;
+  margin: 5px;
+}
+.qr_code_button{
+  background: #971AFF;
+  padding: 10px 15px;
+  border: 1px solid #971AFF;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  margin: 15px auto;
+  cursor: pointer;
+}
+.qr_code_button:hover{
+  opacity: .8;
+}
